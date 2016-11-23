@@ -13,4 +13,4 @@ Years in various software development:
 
 * Mobile development experience
 
-* A big fan of Machine Learning and Big Datafix
+* A big fan of Machine Learning and Big Data

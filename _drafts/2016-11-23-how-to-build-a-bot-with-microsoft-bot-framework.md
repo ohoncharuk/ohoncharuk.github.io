@@ -6,8 +6,6 @@ categories: Bots
 permalink: /step-by-step-guide-how-to-build-a-bot-with-microsoft-bot-framework
 ---
 
-This is just a style test post, filled with LoremIpsue. Feel free to delete the file.
-
 # Introduction
 
 In this article I'm going to show you how to build a simple bot using [https://dev.botframework.com/](https://dev.botframework.com/) platform and its SDK.
