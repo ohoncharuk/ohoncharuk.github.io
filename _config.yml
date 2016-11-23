@@ -1,0 +1,44 @@
+# Site settings
+title: Alex in Software Engineering world
+url: "http://honcharuk.me"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  This site is about Web Developemnt ,Bots Developemnt, Distributed Systems and Machine Learning, 
+
+# Your information
+email: alex@honcharuk.me
+author: Alex Honcharuk
+avatar: "/img/avatar.jpg"
+profile: In love with Web Development, Bots, Distributed Systems, Machine Learning and many other things.
+twitter_username: ohoncharuk
+github_username: honcharuk
+skype_username: ohoncharuk
+linkedin_username: honcharuk
+facebook_username: honcharuk
+instagram_username: ohoncharuk
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+sass:
+  style: compressed
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
