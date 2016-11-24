@@ -5,7 +5,7 @@ permalink: /about/
 public: true
 ---
 
-** Ukrainian fellow engaged in a variuos software development for many years: **
+**Ukrainian fellow engaged in a variuos software development for many years:**
 
 <i class="fa fa-comments-o" aria-hidden="true"></i> Bots development
 
