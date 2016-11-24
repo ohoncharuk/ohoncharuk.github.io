@@ -21,11 +21,19 @@ C# language and its SDK is a choice in this artcle.
 
 # Project creation in Visual Studio
 
+TBD
+
 # Integration with [wit.ai](https://wit.ai)
+
+TBD
 
 # Testing
 
+TBD
+
 # Registering a bot into Bot Directory
+
+TBD
 
 # References
 
