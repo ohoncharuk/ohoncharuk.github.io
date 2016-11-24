@@ -9,7 +9,7 @@ Years in various software development:
 
 * Bots development
 
-* Web Development with ASP.NET
+* Web Development with ASP.NET, Python
 
 * Mobile development experience
 

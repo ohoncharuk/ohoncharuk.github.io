@@ -20,6 +20,10 @@ C# language and its SDK is a choice in this artcle.
 
 # Project creation
 
+# Integration with [wit.ai](https://wit.ai)
+
+# Testing
+
 # References
 
 - [https://dev.botframework.com](https://dev.botframework.com)
