@@ -14,3 +14,7 @@ public: true
 <i class="fa fa-cogs" aria-hidden="true"></i> A big fan of Machine Learning and Big Data
 
 <i class="fa fa-tablet fa-lg" aria-hidden="true"></i> Mobile development experience
+
+**Sometimes I grab my Nikon and take some photos:**
+
+<i class="fa fa-camera fa-lg" aria-hidden="true"></i> [shutterstock](https://www.shutterstock.com/g/ohoncharuk)
