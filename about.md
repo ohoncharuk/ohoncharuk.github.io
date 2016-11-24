@@ -5,7 +5,7 @@ permalink: /about/
 public: true
 ---
 
-Years in various software development:
+**Years in various software development:**
 
 <i class="fa fa-comments-o" aria-hidden="true"></i> Bots development
 
