@@ -2,7 +2,8 @@
 .page-heading {
 	font-size:40px;
 	font-weight: normal;
-	margin-top: 0px;
+	margin: 0px;
+    
     @include media-query($on-palm) {
 		margin: 10px;
 		font-size: 34px;
