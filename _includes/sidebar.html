@@ -23,7 +23,7 @@
 </div>
 
 <div class="col-box">
-  <div class="col-box-title">Newest Posts</div>
+  <div class="col-box-title"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Newest Posts</div>
   <ul class="post-list">
     {% for post in site.posts limit:5 %}
       <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
@@ -37,7 +37,7 @@
 </div>
 
 <div class="col-box">
-  <div class="col-box-title">My Projects</div>
+  <div class="col-box-title"><i class="fa fa-building-o" aria-hidden="true"></i> My Projects</div>
   <ul class="post-list">
       <li><a class="post-link" href="http://honcharuk.me/csharp-lessons/">C# Training</a></li>
   </ul>

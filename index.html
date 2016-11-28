@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss" aria-hidden="true"></i> RSS Feed</a>
   <h1 class="page-heading">Articles</h1>
   <ul class="post-list">
     {% for post in paginator.posts %}
