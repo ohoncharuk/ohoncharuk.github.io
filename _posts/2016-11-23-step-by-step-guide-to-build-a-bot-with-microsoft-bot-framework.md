@@ -8,8 +8,6 @@ permalink: /step-by-step-guide-to-build-a-bot-with-microsoft-bot-framework
 excerpt_separator: <!--more-->
 ---
 
-# Introduction
-
 In this article I'm going to show you how to build a simple bot using [https://dev.botframework.com/](https://dev.botframework.com/) platform and its SDK.
 Client Libraries for the Bot State REST API:
 

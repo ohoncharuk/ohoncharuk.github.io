@@ -18,11 +18,12 @@
         	font-size:$small-font-size;
         	margin: -34px -100px;
             margin-top: 0px;
+            margin-bottom: 20px;
         }
         @include media-query($on-palm) {
     		text-align:center;
     		margin-bottom: 10px;
-    		padding: 10px;
+    		//padding: 10px;
         }
     }
     .post-content {
@@ -31,10 +32,11 @@
         h1,h2,h3,h4,h5,h6 {
             color: #000;
         }
-        
+        //margin-top: 40px;
+
         h1, h2 {
         	margin-bottom: 10px;
-            margin-top: 50px;
+            //margin-top: 50px;
         }
         
         h1, h2, h3 {
