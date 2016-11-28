@@ -12,7 +12,7 @@
 	float:right;
     text-decoration: none;
     border:1px solid;
-    color: #5d4694;
+    color: $header-bg;
     background: #fff;
     font-size: 0.7 * $base-font-size;
     padding: 1px 8px;
@@ -26,9 +26,9 @@
 	padding: 0px 40px;
     list-style: none;
     > li {
-        padding-bottom: 30px;
+        //padding-bottom: 10px;
         border-bottom: 1px solid #CCC;
-    	margin-bottom: 30px;
+    	margin-bottom: 10px;
     }
     .post-title {
     	font-size: 28px;
@@ -70,17 +70,19 @@
                 opacity: 1;
             }
         }
-        margin: 0 20px;
+        margin: 0px;
     }
     @include media-query($on-palm) {
 		padding: 10px;
+        margin: -28px 0px 0px 0px
     }
 }
 .pagination {
 	text-align:center;
 	text-decoration:none;
 	color: #666;
-	margin: 30px 0;
+	margin: 0px 0;
+    padding-top: 10px;
     .page_number {
     	margin:0 30px;
     }
@@ -97,6 +99,9 @@
     	background: #fefefe;
     	color: #000;
     	text-decoration:none;
+    }
+    @include media-query($on-palm) {
+        padding-top: 0px;
     }
 }
 }
