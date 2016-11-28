@@ -3,7 +3,8 @@
 	font-size:40px;
 	font-weight: normal;
 	margin: 0px;
-    
+    border-bottom: 1px solid #CCC;
+
     @include media-query($on-palm) {
 		margin: 10px;
 		font-size: 34px;
@@ -26,9 +27,14 @@
     margin: 0;
 	padding: 0px 40px;
     list-style: none;
-    > li {
+    
+    h2{
+        text-align: justify;
+    }
+
+    li {
         //padding-bottom: 10px;
-        border-bottom: 1px solid #CCC;
+        //border-bottom: 1px solid #CCC;
     	margin-bottom: 10px;
     }
     .post-title {
@@ -83,6 +89,7 @@
 	text-align:center;
 	text-decoration:none;
 	color: #666;
+    //border-top: 1px solid #CCC;
 	margin: 0px 0;
     padding-top: 10px;
     .page_number {
