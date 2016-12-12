@@ -22,7 +22,25 @@ C# language and its SDK is a choice in this artcle.
 
 # Project creation in Visual Studio
 
-TBD
+Advice:
+
+* Use the latest Visual Studio version installed to avoid any unexpected behavior
+* Download this project template [file](http://aka.ms/bf-bc-vstemplate) and put it directly in "%USERPROFILE%\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\" location. Don't unarchive it
+* Use local IIS option to debug your bot on a local environment. It'll allows you to test a bot with no Visual Studio debugging running
+* Download the Bot Framework emulator [here](https://aka.ms/bf-bc-emulator). There are also Linux and Mac versions available, but use Windows only, because Mac version doesn't work for some reason.
+* When you create a new project, just comment [BotAuthentication] attribute usage for now. Since this is a demo project, it'll allows you avoid connection issues during publishing bot online.
+
+Now, Bot Project can be created in Visual Studio:
+
+![project creation window](/img/posts/new-project.png)
+
+![created project view](/img/posts/project-created.png)
+
+It is a natural ASP.NET MVC Web Api application with just one controller and POST action inside of it. This is an entry point to the Bot.
+Default template implements an echo bot. Let's start it the first time.
+
+![emulator](/img/posts/emulator-window.png)
+
 
 # Integration with [wit.ai](https://wit.ai)
 
