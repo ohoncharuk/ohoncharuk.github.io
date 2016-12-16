@@ -1,3 +1,71 @@
+@font-face {
+    font-family: 'Myriad Set Pro bolditalic';
+    src: url('/fonts/myriaabi-webfont.woff2') format('woff2'),
+         url('/fonts/myriaabi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro mediumitalic';
+    src: url('/fonts/myriaami-webfont.woff2') format('woff2'),
+         url('/fonts/myriaami-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro semibolditalic';
+    src: url('/fonts/myriaasi-webfont.woff2') format('woff2'),
+         url('/fonts/myriaasi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro textitalic';
+    src: url('/fonts/myriaati-webfont.woff2') format('woff2'),
+         url('/fonts/myriaati-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro bold';
+    src: url('/fonts/myriadab-webfont.woff2') format('woff2'),
+         url('/fonts/myriadab-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro medium';
+    src: url('/fonts/myriadam-webfont.woff2') format('woff2'),
+         url('/fonts/myriadam-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro semibold';
+    src: url('/fonts/myriadas-webfont.woff2') format('woff2'),
+         url('/fonts/myriadas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('/fonts/myriadat-webfont.woff2') format('woff2'),
+         url('/fonts/myriadat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     overflow-y: scroll; 
 }
