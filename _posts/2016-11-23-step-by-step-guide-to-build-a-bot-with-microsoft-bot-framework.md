@@ -27,8 +27,8 @@ Advice:
 * Use the latest Visual Studio version installed to avoid any unexpected behavior
 * Download this project template [file](http://aka.ms/bf-bc-vstemplate) and put it directly in "%USERPROFILE%\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\" location. Don't unarchive it
 * Use local IIS option to debug your bot on a local environment. It'll allow you to test a bot with no Visual Studio debugging running
-* Download the Bot Framework emulator [here](https://aka.ms/bf-bc-emulator). There are also Linux and Mac versions available, but use Windows only, because Mac version doesn't work for some reason.
-* When you create a new project, just comment [BotAuthentication] attribute usage for now. Since this is a demo project, it'll allows you avoid connection issues during publishing bot online.
+* Download the Bot Framework emulator [here](https://aka.ms/bf-bc-emulator). There are also Linux and Mac versions available, but I use Windows only, because Mac version doesn't work for some reason.
+* When you create a new project, just comment [BotAuthentication] attribute usage for now. Since this is a demo project, it'll allow you to avoid connection issues during publishing it online.
 
 Now, Bot Project can be created in Visual Studio:
 
@@ -36,7 +36,7 @@ Now, Bot Project can be created in Visual Studio:
 
 ![created project view](/img/posts/project-created.png)
 
-It is a natural ASP.NET MVC Web Api application with just one controller and POST action inside of it. This is an entry point to the Bot.
+It is a natural ASP.NET MVC Web API application with just one controller and POST action inside of it. This is an entry point to the Bot.
 Default template implements an echo bot. Let's start it the first time.
 
 ![emulator](/img/posts/emulator-window.png)
