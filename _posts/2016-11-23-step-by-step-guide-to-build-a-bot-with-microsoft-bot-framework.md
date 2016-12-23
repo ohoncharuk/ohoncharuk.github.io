@@ -137,7 +137,19 @@ public static double Distance(string from, string to)
 
 # Registering a bot into Bot Directory
 
-TBD
+Microsoft has its own Bot Directory where you can connect your bot with various bot platforms, like Facebook, Telegram, Skype, Slack, etc.
+
+Go to [https://dev.botframework.com](https://dev.botframework.com) site, login with your Microsoft ID and go to 'Register a bot' menu.
+
+Then follow my instructions from the picture below.
+
+![bot registering](/img/posts/bot-registering.jpg)
+
+Once you are done with bot creation, you can integrate it with other bot platforms:
+
+![bot registering](/img/posts/bot-integration.jpg)
+
+Now you are all set.
 
 # References
 
